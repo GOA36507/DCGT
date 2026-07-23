@@ -1,7 +1,7 @@
 # Beyond Alignment: Discovering Cross-graph Triples for Knowledge Graph Integration
 
 ## Overview
-This repository provides the benchmark datasets and the code will be made publicly available as soon as the work is published.
+This repository provides the benchmark datasets.
 
 ## Data 
 
