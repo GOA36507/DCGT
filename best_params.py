@@ -1,0 +1,38 @@
+BEST_PARAMS_BY_DATASET = {
+    'WIKI-YAGO': {
+        'margin': 9.0,
+        'align_weight': 0.1,
+        'pseudo_align_threshold': 0.01,
+        'pseudo_align_max_rounds': 1,
+        'triple_weight': 1.0,
+        'infonce_weight': 0.1,
+        'triple_infonce_temperature': 0.07,
+    },
+    'ES-EN': {
+        'margin': 9.0,
+        'align_weight': 0.1,
+        'pseudo_align_threshold': 0.01,
+        'pseudo_align_max_rounds': 1,
+        'triple_weight': 0.1,
+        'infonce_weight': 0.01,
+        'triple_infonce_temperature': 0.07,
+    },
+    'JA-EN': {
+        'margin': 9.0,
+        'align_weight': 1.0,
+        'pseudo_align_threshold': 0.1,
+        'pseudo_align_max_rounds': 2,
+        'triple_weight': 0.1,
+        'infonce_weight': 0.1,
+        'triple_infonce_temperature': 0.07,
+    },
+    'DBP-FB': {
+        'margin': 6.0,
+        'align_weight': 1.0,
+        'pseudo_align_threshold': 0.1,
+        'pseudo_align_max_rounds': 3,
+        'triple_weight': 0.1,
+        'infonce_weight': 0.1,
+        'triple_infonce_temperature': 0.1,
+    },
+}
